@@ -1,0 +1,28 @@
+{
+  "name": "calculator",
+  "version": "0.0.1",
+  "private": true,
+  "bin": {
+    "calculator": "./bin/run"
+  },
+  "files": [
+    "/bin",
+    "/lib"
+  ],
+  "dependencies": {
+    "@oclif/command": "1.8.0",
+    "cli-ux": "5.5.1",
+    "ts-node": "10.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "26.0.23",
+    "@types/node": "15.12.4",
+    "jest": "27.0.4",
+    "ts-jest": "27.0.3",
+    "typescript": "4.3.4"
+  },
+  "scripts": {
+    "cli": "./bin/run",
+    "test": "jest"
+  }
+}
